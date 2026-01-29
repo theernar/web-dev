@@ -1,17 +1,133 @@
-#logo {
-    width: 60px;
-    margin-left: 50px;
-    margin-top: 25px;
+#voiti {
+    font-weight: bold;
+    font-family: montserrat;
+    margin-left: 880px;
+    margin-top: -600px;
 }
 
-.title {
+.vertical-line {
+    width: 2px;
+    height: 727px;
+    background-color: rgb(221,226,232);
+    margin-left: 800px;
+    margin-top: -10px;
+}
+
+.eee{
+    margin-left: 880px;
+    margin-top: 20px;
+}
+
+#lname {
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 13px;
+    height: 57px;
+    border: 1px solid gray;  
+    outline: none;
+    box-sizing: border-box;
+    font-family: montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#fname{
+    width: 80%;
+    border-radius: 13px;
+    height: 57px;
+    margin-top: 10px;
+    border: 1px solid gray;  
+    outline: none;
+    box-sizing: border-box;
+    font-family: montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#button {
     text-align: center;
-    font-size: 48px;
+    width: 80%; 
+    border-radius: 100px;
+    border: 0px; 
+    font-family: montserrat;
+    height: 40px;
+    background-color: #0064e0;
+    color: white
+}
+
+#forgot{
+    font-family: montserrat;
+    margin-left: 2px;
+    font-size: 15px;
+    margin-top: 13px;
+    text-align: 20px;
+    background-color: white;
+    border: 0px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%; 
+    border-radius: 100px;
+    height: 40px
+}
+
+#forgot:hover{
+    background-color: rgb(221,226,232);
+}
+
+#face{
+    margin-top: 35px;
+    text-align: center;
+    height: 45px;
+    font-weight: bold;
+    font-family: montserrat;
+    border-radius: 100px;
+    width: 80%;
+    border: 2px solid rgb(221,226,232); 
+    background-color: white;
+}
+
+#face:hover{
+    background-color: rgb(221,226,232);
+}
+
+#new {
+    margin-top: 20px;
+    text-align: center;
+    height: 45px;
+    font-weight: bold;
+    font-family: montserrat;
+    border-radius: 100px;
+    width: 80%;
+    border: 2px solid rgb(0,105,226); 
+    background-color: white;
+    color: rgb(0,105,226);
+}
+
+#new:hover{
+    background-color: rgb(221,226,232);
+}
+
+#photo {
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 1100px;
+}
+
+.logo {
+    margin-left: 70px;
+    margin-top: -580px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
     font-family: serif;
     max-width: 700px;   
     margin: 0 auto;     
     line-height: 1.3;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .orange {
@@ -22,15 +138,9 @@
     color: deeppink;
 }
 
-#photo{
-    width: 420px;
-}
-
-.vertical-line {
-    width: 2px;
-    height: 727px;
-    background-color: gray;
-    margin-left: 770px;
-    margin-top: -680px;
+#ilk {
+    width: 30%;
+    margin-left: 180px;
+    margin-top: 13px;
 }
 

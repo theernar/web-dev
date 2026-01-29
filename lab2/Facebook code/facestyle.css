@@ -39,6 +39,8 @@ body{
     outline: none;
     box-sizing: border-box;
     margin-left: -16px;
+    font-family: montserrat;
+    font-size: 16px;
 }
 
 #lname{
@@ -52,6 +54,8 @@ body{
     box-sizing: border-box;
     margin-top: 10px;
     margin-left: -16px;
+    font-family: montserrat;
+    font-size: 16px;           
 }
 
 
