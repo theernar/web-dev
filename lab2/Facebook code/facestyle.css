@@ -12,7 +12,7 @@ body{
 
 #sentences{
     color: black; 
-    margin-left: 240px;
+    margin-left: 840px;
     font-size: 24px;
     margin-top: -10px;
 }
@@ -20,11 +20,11 @@ body{
 .eee{ 
     background-color: white;
     padding: 40px 40px; 
-    margin-left: 800px;
+    margin-left: 250px;
     border-radius: 10px;
     width: 340px; 
     height: 270px;
-    margin-top: -300px;
+    margin-top: -230px;
     size: 50px; 
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
@@ -119,6 +119,6 @@ body{
 
 #photo{
     width: 320px;
-    margin-top: 200px;
-    margin-left: 210px;
+    margin-top: 160px;
+    margin-left: 800px;
 }
