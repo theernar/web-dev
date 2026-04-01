@@ -1,0 +1,53 @@
+<div class="card">
+  <div class="image-wrapper">
+    <img class="main-image" [src]="selectedImage" [alt]="product.name" />
+  </div>
+
+  <div class="thumbs">
+    @for (img of product.images; track img; let i = $index) {
+      <img
+        class="thumb"
+        [class.active]="i === selectedImageIndex"
+        [src]="img"
+        [alt]="product.name + ' thumbnail ' + (i + 1)"
+        (click)="selectImage(i)"
+      />
+    }
+  </div>
+
+  <div class="card-body">
+    <h3>{{ product.name }}</h3>
+    <p class="description">{{ product.description }}</p>
+
+    <p class="price">{{ product.price }} ₸</p>
+
+    <div class="rating-row">
+      <div class="stars">
+        @for (star of getFullStars(); track $index) {
+          <span>★</span>
+        }
+        @if (hasHalfStar()) {
+          <span>☆</span>
+        }
+        @for (star of getEmptyStars(); track $index) {
+          <span class="empty">☆</span>
+        }
+      </div>
+      <span class="rating-number">{{ product.rating }}</span>
+    </div>
+
+    <div class="actions">
+      <a class="open-link" [href]="product.link" target="_blank" rel="noopener noreferrer">
+        Kaspi-ден ашу
+      </a>
+
+      <button type="button" class="share-btn" (click)="shareOnWhatsApp()">
+        WhatsApp
+      </button>
+
+      <button type="button" class="share-btn telegram" (click)="shareOnTelegram()">
+        Telegram
+      </button>
+    </div>
+  </div>
+</div>
