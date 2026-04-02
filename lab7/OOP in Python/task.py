@@ -11,7 +11,7 @@ class Product:
     
     def set_id(self, id): self.id = id
     def set_name(self, name): self.name = name
-    def set_price(self, price ): self.price = price
+    def set_price(self, price): self.price = price
     def set_amount(self, n): self.amount = n
     def dec_amount(self, n: int): 
         if self.amount < 0:
@@ -47,7 +47,7 @@ class Cake(Product):
     def consume(self):
         if(self.amount > 0):
             self.amount -= 1
-            print("MMMMM KAK BKYCHO")
+            print("Delicious")
         else:
             print("There is nothing we can eat...")
 
